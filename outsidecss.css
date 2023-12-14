@@ -1,0 +1,45 @@
+body {
+    background-image: url('');
+}
+
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+h1 {
+    color: blue;
+    font-family: Tahoma;
+    font-size: 300%;
+    /*
+    =2em =32px
+    150% = 1em
+    150% = 16px
+    75% = 8px
+    32.5% = 4px
+    1em = 16px 
+     */
+}
+
+p {
+    color: red;
+    font-family: 'Courier';
+    font-size: 160%;
+}
+
+/* For id is # */
+
+#myOnlyPTag {
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium';
+    font-size: x-large;
+}
+
+/* For class is dot */
+.myClassStyle{
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 24px;
+}
+

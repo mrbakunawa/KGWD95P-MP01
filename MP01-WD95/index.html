@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gift Idea Generator</title>
+</head>
+<body>
+    <header>
+        <h1>Gift Idea Generator</h1>
+    </header>
+
+    <main>
+        <section id="preferences">
+            <label for="recipient">Recipient:</label>
+            <input type="text" id="recipient" placeholder="Enter recipient">
+            
+            <label for="occasion">Occasion:</label>
+            <input type="text" id="occasion" placeholder="Enter occasion">
+            
+            <label for="budget">Budget:</label>
+            <input type="number" id="budget" placeholder="Enter budget">
+            
+            <button onclick="generateGift()">Generate Gift Idea</button>
+        </section>
+
+        <section id="result">
+            <h2>Gift Idea:</h2>
+            <p id

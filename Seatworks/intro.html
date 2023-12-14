@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <script>
+        //IPO model
+        //Varible 
+        //INPUT
+
+        const myArrInt = []
+
+        //single dimension
+        myArrInt = [0] = 67;
+        myArrInt = [1] = 6;
+        myArrInt = [2] = 345;
+        myArrInt = [3] = 678;
+        myArrInt = [4] = 123;
+        myArrInt = [5] = 6456;
+        myArrInt = [6] = 56;
+        myArrInt = [7] = 56;
+        myArrInt = [8] = 6756;
+        myArrInt = [9] = 89;
+        
+        console.log(myArrInt);
+
+
+        const myObject = {};
+        myObject.page = 100;
+        myObject.frontCover = 'Intro to programming';
+        myObject.yearPublished = 1985;
+        console.log(myObject)
+
+        let hello = null;
+        let house = '';
+        let a;
+        let b = false;
+
+        document,writen(typeof a);
+        document,writen(typeof '<br />');
+        document,writen(typeof b);
+
+
+        
+        let myAddress = 'Bulacan';
+        console.log('address: ' + typeof myAddress);
+        let myPhoneNumber = "0123456789";
+        console.log(myPhoneNumber);
+        console.log('address: ' + typeof myPhoneNumber);
+
+        let myTwoVariables = `${myAddress} ${myPhoneNumber}`;
+        console.log('2 variables: ' + myTwoVariables);
+        document.write('<p> + '2 variables: ')
+
+
+        let num1 = prompt("Enter first number"); //text : string
+        let num2 = prompt("Enter second number"); //text : string
+
+        // const FullName = prompt("Enter your full name");
+        // var address = prompt("Enter your address");
+        
+        let isOkNum1 = true; //boolean
+        let isOkNum2 = true; //boolean 
+
+        //validatiom
+        if  (isNaN(num1) == true)   { //to check if the input is number or not, if true its a not number
+            alert("Num1 is not a number");
+            isOkNum1 = false;
+        }
+        if  (isNaN(num2) == true) {
+            alert("Num2 is not a number");
+            isOkNum2 = false;
+        }
+
+        //PROCESS addition
+        if  (isOkNum1 == true && isOkNum1 == true)  {
+            let sum = parseInt(num1) + parseInt(num2); 
+        
+            //OUTPUT
+             alert('result: ' + sum);
+             document.write('<p><b>')
+
+        } else {
+            alert("Try Again");
+            location.reload(); // Refresh Page
+        }
+
+    </script>
+
+
+</body>
+</html>
+
+
